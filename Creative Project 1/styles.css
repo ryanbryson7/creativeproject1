@@ -1,0 +1,71 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+body {
+  background-color: #ffb3b3;
+}
+
+.blog-posts {
+  background: #ffb3b3;
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  border-radius: 10px;
+  background-color: #ffcccc;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.post-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  font-size: 24px;
+  width: 50%;
+  height: auto;
+  margin: 15px;
+}
+
+img {
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  max-width: 45%;
+  height: auto;
+  padding: 15px;
+}
+
+
+footer {
+  height: 75px;
+  align-items: center;
+  text-align: center;
+  background-color: #ff4d4d;
+  padding-top: 25px;
+}
+
+a {
+  color: #333333;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #333;
+}
